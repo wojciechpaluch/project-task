@@ -4,6 +4,11 @@
     padding-top: 2%;
 }
 
+#nav img {
+    height: 30%;
+    display: inherit;
+}
+
 #nav a {
     justify-content: center;
     padding: 12px;
