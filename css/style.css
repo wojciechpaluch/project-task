@@ -62,8 +62,16 @@
 
 #welcome p {
     color: white;
-    padding-bottom: 5%;
     text-align: left;
+}
+
+
+#news {
+    background-image: url("../img/news.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
 }
 
 
