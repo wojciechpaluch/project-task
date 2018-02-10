@@ -42,3 +42,24 @@
     #nav a {display: table-row;}
 }
 
+#welcome {
+    background-image: url("../img/welcome.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100vh;
+    width: 100%;
+    padding-top: 8%;
+}
+
+#welcome h1 {
+    color: white;
+}
+
+#welcome h2 {
+    color: #a29061;
+}
+
+#welcome p {
+    color: white;
+    padding-bottom: 5%;
+}
