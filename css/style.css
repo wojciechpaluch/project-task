@@ -1,0 +1,16 @@
+
+#nav {
+    text-align: right;
+    word-spacing: 15px;
+    padding-top: 2%;
+}
+
+#hero {
+    text-align: left;
+    padding-top: 10%;
+    margin-left: -15%;
+}
+
+#hero h1 {
+    color: #455560;
+}
