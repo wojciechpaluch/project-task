@@ -9,10 +9,16 @@ nav img {
     display: inherit;
 }
 
+nav li {
+    display: inline-block;
+}
+
 nav a {
     justify-content: center;
     padding: 12px;
+    color: #a29061;
 }
+
 
 #hero {
     text-align: left;
@@ -39,7 +45,7 @@ main {
 }
 
 @media screen and (max-width: 1000px) {
-    nav a {display: table-row;}
+    nav li {display: table-row;}
 }
 
 #welcome {
