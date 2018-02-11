@@ -74,4 +74,15 @@ article {
     width: 100%;
 }
 
+article h1 {
+    text-align: right;
+    color: #4d565d;
+    text-decoration: underline;
+}
+
+article h2 {
+    text-align: right;
+    color: #4d565d;
+}
+
 
