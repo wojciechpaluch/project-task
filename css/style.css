@@ -1,15 +1,15 @@
 
-#nav {
+nav {
     text-align: right;
     padding-top: 2%;
 }
 
-#nav img {
+nav img {
     height: 30%;
     display: inherit;
 }
 
-#nav a {
+nav a {
     justify-content: center;
     padding: 12px;
 }
@@ -20,7 +20,7 @@
     padding-bottom: 50%;
 }
 
-#background {
+main {
     background-image: url("../img/header-background.png");
     background-repeat: no-repeat;
     background-size: 100%;
@@ -39,7 +39,7 @@
 }
 
 @media screen and (max-width: 1000px) {
-    #nav a {display: table-row;}
+    nav a {display: table-row;}
 }
 
 #welcome {
@@ -66,7 +66,7 @@
 }
 
 
-#news {
+article {
     background-image: url("../img/news.png");
     background-repeat: no-repeat;
     background-size: 100%;
