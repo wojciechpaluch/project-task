@@ -30,7 +30,6 @@ main {
     background-image: url("../img/header-background.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
     width: 100%;
 
 }
@@ -44,15 +43,11 @@ main {
     color: #a29061;
 }
 
-@media screen and (max-width: 1000px) {
-    nav li {display: table-row;}
-}
 
 #welcome {
     background-image: url("../img/welcome.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
     width: 100%;
     padding-top: 8%;
     text-align: left;
@@ -76,7 +71,6 @@ article {
     background-image: url("../img/news.png");
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100vh;
     width: 100%;
 }
 
@@ -97,7 +91,7 @@ article h2 {
 footer {
     background-color: #455560;
     background-size: 100%;
-    height: 20vh;
+    height: auto;
     width: 100%;
     padding-top: 3%;
 }
@@ -110,6 +104,18 @@ footer a {
 
 footer h2 {
     color: #7d8890 !important;
+
+}
+
+@media screen and (max-width: 1000px) {
+    nav li {display: table-row;}
+    #welcome p {color: black;}
+}
+
+@media screen and (max-width: 700px) {
+    p {
+        color: black;
+    }
 
 }
 

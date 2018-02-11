@@ -1,1 +1,1 @@
-Project www
+Please clone and open index.html
