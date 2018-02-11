@@ -107,6 +107,8 @@ footer h2 {
 
 }
 
+
+
 @media screen and (max-width: 1000px) {
     nav li {display: table-row;}
     #welcome p {color: black;}
