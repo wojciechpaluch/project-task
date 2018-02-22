@@ -7,27 +7,58 @@
     <link rel="stylesheet" href="./css/bootstrap.css"/>
     <link rel="stylesheet" href="./css/bootstrap-grid.css"/>
     <link rel="stylesheet" href="./css/style.css">
+
 </head>
 <body>
-<nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <img src="./img/logo.png" alt="logo"/>
-                <ul>
-                    <li><a href="#section1">HOME</a></li>
-                    <li><a href="#section1">PRODUKTY</a></li>
-                    <li><a href="#section1">O FIRMIE</a></li>
-                    <li><a href="#section1">AKTUALNOŚCI</a></li>
-                    <li><a href="#section1">MEDIA</a></li>
-                    <li><a href="#section1">ZNAJDŹ KLINIKĘ</a></li>
-                    <li><a href="#section1">KONTAKT</a></li>
-                    <li><a href="#section1">SZUKAJ</a></li>
-                </ul>
-            </div>
+<section id="logo">
+<div class="container">
+    <div class="row">
+        <div class="col-sm-2">
+            <img src="./img/logo.png" alt="logo"/>
         </div>
     </div>
+</div>
+</section>
+
+
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#hero">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#welcome">PRODUKTY</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#section1">O FIRMIE</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#section1">MEDIA</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#section1">ZNAJDŹ KLINIKĘ</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#section1">KONTAKT</a>
+
+                        <li class="nav-item">
+                            <a class="nav-link js-scroll-trigger" href="#section1">SZUKAJ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 </nav>
+
 
 <main>
     <section id="hero">
@@ -72,35 +103,40 @@
 
 </section>
 
-<article>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12">
-                <h1> AKTUALNOŚCI</h1>
+<section id="news">
+    <article>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <h1> AKTUALNOŚCI</h1>
+                </div>
             </div>
         </div>
-    </div>
 
 
-    <div class="container">
-        <div class="row justify-content-end">
-            <div class="col-sm-4">
-                <img src="./img/article-img.png" alt="article-img" width=100%/>
-            </div>
-            <div class="col-sm-8">
-                <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nisi tristique, egestas augue
-                    et. </h2>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nisi tristique, egestas augue
-                    et, feugiat sem. Proin efficitur elit quis magna elementum, at maximus tellus fermentum.</p>
-                <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nisi tristique, egestas augue
-                    et, feugiat sem. Proin efficitur elit quis magna elementum, at maximus tellus fermentum.</p>
-            </div>
-            <div class="col-sm-4">
-                <img src="./img/button_more.png" alt="button"/>
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-sm-4">
+                    <img src="./img/article-img.png" alt="article-img" width=100%/>
+                </div>
+                <div class="col-sm-8">
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nisi tristique, egestas
+                        augue
+                        et. </h2>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nisi tristique, egestas
+                        augue
+                        et, feugiat sem. Proin efficitur elit quis magna elementum, at maximus tellus fermentum.</p>
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sit amet nisi tristique, egestas
+                        augue
+                        et, feugiat sem. Proin efficitur elit quis magna elementum, at maximus tellus fermentum.</p>
+                </div>
+                <div class="col-sm-4">
+                    <img src="./img/button_more.png" alt="button"/>
+                </div>
             </div>
         </div>
-    </div>
-</article>
+    </article>
+</section>
 
 <footer>
     <div class="container">
@@ -122,19 +158,41 @@
             </div>
 
 
-                <div class="col-sm-6">
-                    <h2> NEWSLETTER: </h2>
-                    <input type="text" name="E-mail" value="Podaj swój adres email">
-                    <button type="button" class="btn btn-dark">Zapisz się</button>
-                </div>
-
+            <div class="col-sm-6">
+                <h2> NEWSLETTER: </h2>
+                <input type="text" name="E-mail" value="Podaj swój adres email">
+                <button type="button" class="btn btn-dark">Zapisz się</button>
             </div>
 
         </div>
+
+    </div>
     </div>
 
 
 </footer>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/creative.min.js"></script>
+<script src="./js/bootstrap.js"></script>
+
+<script type="text/javascript">
+  $(document).ready(function () {
+    var scroll_start = 0;
+    var startchange = $('#hero');
+    var offset = startchange.offset();
+    $(document).scroll(function () {
+      scroll_start = $(this).scrollTop();
+      if (scroll_start > offset.top) {
+        $('#navbar').css('background-color', 'black',);
+      } else {
+        $('#navbar').css('background-color', 'transparent');
+      }
+    });
+  });
+</script>
 
 
 </body>
